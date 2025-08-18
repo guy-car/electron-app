@@ -1,9 +1,10 @@
 {
   "name": "my-electron-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
     "url": "https://github.com/guy-car/electron-app/issues"
   },
   "homepage": "https://github.com/guy-car/electron-app#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.3.0"
+  }
 }
